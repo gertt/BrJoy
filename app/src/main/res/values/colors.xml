@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAccent">#10103A</color>
+    <color name="colorPrimary">#10103A</color>
+    <color name="colorPrimaryDark">#10103A</color>
+
+
+    <color name="splashBacground">#10103A</color>
+
+    <color name="orange">#F48024</color>
+
+
+    <color name="txtHome">#4D4D4E</color>
+
+    <color name="bacgrounHomeCard">#FAFAFA</color>
+    <color name="txtStartEarning">#88B9A4</color>
+
+
+    <color name="choose">#F5920A</color>
+
+        <color name="colorSelected">#ffffff</color>
+        <color name="colorUnSelected">#00ffffff</color>
+
+    <color name="cardRedeem">#F9F9F9</color>
+
+        <color name="genderSelected">#F5920A</color>
+        <color name="genderUnselected">#00ffffff</color>
+
+        <color name="transparent">#80000000</color>
+        <color name="prova">#00ffffff</color>
+
+       <color name="splash_text">#ffff4444</color>
+
+        <color name="whiteicontab">#999595</color>
+
+        <color name="bottom_background">#f1f0f2</color>
+
+        //selector
+        <color name="list_divider">#979797</color>
+        <color name="list_item_selected_state">#F4F6F6</color>
+        <color name="list_item_normal_state">#FFFFFF</color>
+
+        //chat
+        <color name="colorPurpleLight">#eda245</color>
+        <color name="colorPurpleDark">#F5920A</color>
+        <color name="colorTextBlack">#333333</color>
+        <color name="colorTextHint">#52596b</color>
+        <color name="colorTextInfo">#9b9b9b</color>
+        <color name="colorGreen">#62ea4a</color>
+
+    <color name="colorTextEarn">#747474</color>
+    <color name="colorPtsEarn">#9C9C9C</color>
+    <color name="unlimitedPointssEarn">#4C4C4C</color>
+
+
+    <color name="lightGrey">#999999</color>
+
+    <color name="blueSky">#2B99F0</color>
+
+    <color name="redDark">#AC060F</color>
+
+    <color name="gray_transparent">#fa000000</color>
+
+
+</resources>

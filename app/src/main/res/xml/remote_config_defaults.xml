@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <defaultsMap>
+        <entry>
+            <key>video_add_tags</key>
+            <value>{ "video_ad_tags":[""] }</value>
+        </entry>
+    </defaultsMap>

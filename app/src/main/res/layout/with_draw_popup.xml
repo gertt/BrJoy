@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <View
+        android:id="@+id/views"
+        android:layout_width="match_parent"
+        android:layout_height="361dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/cardRedeem"
+        android:backgroundTint="@color/cardRedeem"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.632"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline1"
+        app:layout_constraintVertical_bias="0.443">
+
+
+    </View>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:background="@color/lightGrey"
+        app:layout_constraintEnd_toEndOf="@+id/txt_amount"
+        app:layout_constraintStart_toStartOf="@+id/txt_amount"
+        app:layout_constraintTop_toBottomOf="@+id/txt_amount">
+
+    </View>
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:background="@color/lightGrey"
+        app:layout_constraintEnd_toEndOf="@+id/edx_email"
+        app:layout_constraintStart_toStartOf="@+id/edx_email"
+        app:layout_constraintTop_toBottomOf="@+id/edx_email">
+
+    </View>
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/unlimitedPointssEarn"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:text="PayPal Withdraw"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/views" />
+
+    <TextView
+        android:textSize="17sp"
+        android:textColor="@color/unlimitedPointssEarn"
+        android:id="@+id/textView28"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:lines="2"
+        android:minLines="2"
+        android:text="Please allow 24-48 hours for processing"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <TextView
+        android:background="@android:color/transparent"
+        android:hint="$"
+        android:gravity = "center_vertical|left|start"
+        android:layout_margin="20dp"
+        android:id="@+id/txt_amount"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toEndOf="@+id/views"
+        app:layout_constraintStart_toStartOf="@+id/views"
+        app:layout_constraintTop_toTopOf="@+id/guideline1"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:background="@null"
+        android:gravity = "center_vertical|left|start"
+        android:layout_margin="20dp"
+        android:id="@+id/edx_email"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginStart="24dp"
+        android:hint="example@example.com"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+
+        app:layout_constraintEnd_toEndOf="@id/views"
+        app:layout_constraintStart_toStartOf="@id/views"
+        app:layout_constraintTop_toBottomOf="@+id/txt_amount" />
+
+    <me.grantland.widget.AutofitTextView
+        android:id="@+id/txtWithdraw"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="left"
+        android:text="WITHDRAW NOW"
+        android:textColor="@color/gray_color"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/views"
+        app:layout_constraintEnd_toEndOf="@+id/edx_email" />
+
+
+</android.support.constraint.ConstraintLayout>

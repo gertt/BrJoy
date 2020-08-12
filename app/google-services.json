@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "677083555555",
+    "firebase_url": "https://browsejoy-mobile.firebaseio.com",
+    "project_id": "browsejoy-mobile",
+    "storage_bucket": "browsejoy-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677083555555:android:eb7416f040b62387",
+        "android_client_info": {
+          "package_name": "com.browsejoy.games"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677083555555-4in2rjhapdkl4358v7q7msggddebfb5k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.browsejoy.games",
+            "certificate_hash": "48036e79f27a5762600e9e28f8135b23f2560504"
+          }
+        },
+        {
+          "client_id": "677083555555-dapgmg66kg98eb86ggqoqv22mesdefot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBap4S8jf6AT9qi1kcd6xitYQgci7dweBM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677083555555-dapgmg66kg98eb86ggqoqv22mesdefot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

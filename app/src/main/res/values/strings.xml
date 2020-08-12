@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">BrowseJoy</string>
+    <string name="com_auth0_client_id">K9Prc0ffoKbO0KAhPUEIrbqjTqoBjO0E</string>
+    <string name="com_auth0_domain">buckearners.auth0.com</string>
+    <string name="com_auth0_title"></string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="dollar_sign">Notifications</string>
+    <string name="please_use_the_website_to_withdraw">Please use the website to withdraw !</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="action_settings">Settings</string>
+    <string name="video_description">Android Promotional Video (with video ad)</string>
+    <string name="content_url"><![CDATA[http://i.imgur.com/JpDig9C.mp4]]></string>
+    <string name="ad_tag_url"><![CDATA[https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dlinear&correlator=]]></string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_privacy_policy">PrivacyPolicy</string>
+    <string name="privacy_policy_activity">Privacy Policy</string>
+    <string name="txt_thnx_watching">Thanks for watching BrowseJoy!</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-7630304161317548/5126580009</string>
+    <string name="today_s_earnings">Today\'s Earnings</string>
+    <string name="_0_pts">0 pts</string>
+    <string name="_2400pts">2400pts</string>
+    <string name="yeasterday_s_earnings">Yesterday\'s Earnings</string>
+    <string name="earn_by_watching_videos_playing">Earn by watching videos, playing</string>
+    <string name="earsn_unlimited_points">Earn Unlimited Points!</string>
+    <string name="games_and_more">games, and more</string>
+    <string name="videos">Videos</string>
+    <string name="_50_pts">50+ pts</string>
+    <string name="_30_pts">30+ pts</string>
+
+    <string name="live_games">Live Games</string>
+    <string name="_200_pts">200+ pts</string>
+    <string name="more_offers">More Offers</string>
+    <string name="earn_now">WATCH AND EARN NOW</string>
+    <string name="_1000_pts">1000+ pts</string>
+    <string name="title_activity_games">GamesActivity</string>
+    <string name="title_logout">LOGOUT</string>
+    <string name="withdrawal_history">Withdrawal History</string>
+
+    <string name="facebook_interstitial_ad_id">244004536502685_244015313168274</string>
+    <string name="facebook_rectangle_ad_id">244004536502685_244015313168274</string>
+    <string name="aerserv_app_id">1000473</string>
+    <string name="aerserv_app_placement_id">1024876</string>
+    <string name="adscend_pub_id">111539</string>
+    <string name="adscend_adwall_id">10211</string>
+    <string name="none"></string>
+    <string name="title_activity_earn_fragment">EarnFragment</string>
+
+</resources>

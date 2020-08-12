@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_interstitial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/fragment_interstitial_txt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80sp"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="14sp"
+        android:text="Are you still watching?"
+        android:textAlignment="center"
+        style="@style/AudioFileInfoOverlayText"
+        android:textSize="36sp" />
+
+    <RelativeLayout
+        android:id="@+id/rectangleAdContainer"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+    <com.aerserv.sdk.AerServBanner
+        android:id='@+id/aerserv_banner'
+        android:layout_width='320dp'
+        android:layout_height='50dp'
+        android:layout_alignParentTop='true'
+        android:layout_centerHorizontal='true'
+        android:gravity='center_horizontal' />
+
+    <Button
+        android:id="@+id/continue_button"
+        android:layout_width="213dp"
+        android:layout_height="103dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Continue"
+        android:textSize="30sp" />
+</RelativeLayout>
